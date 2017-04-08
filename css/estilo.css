@@ -16,7 +16,7 @@ h4, h5, h6{font-weight:700;}
 
 h1{letter-spacing:0.09em; color:rgba(255,255,255,0.75); font-weight:700; }
 
-h2{letter-spacing:0.02em; color:rgba(255,255,255,0.75); padding:0.2em 0; font-weight: 300;}
+h2{font-family: 'Poiret One', cursive;letter-spacing:0.02em; color:rgba(255,255,255,0.75); padding:0.2em 0; font-weight: 450;}
 
 h3{letter-spacing:0.2em; color:rgba(0, 0, 0,0.75); padding:2em 0 0.8em 0; font-weight: 400;}
 

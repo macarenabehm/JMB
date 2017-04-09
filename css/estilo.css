@@ -204,15 +204,13 @@ video{
 	color:#333;
 	background:white;
 	box-shadow:0 0 5px rgb(240,240,240);
+	filter: opacity(50%);
 }
 
 .item figure{overflow:hidden;}
 
 .item figure img{
 	-webkit-filter:greyscale(100%);
-	-moz-filter: greyscale(100%);
-	-ms-filter: greyscale(100%);
-
 	filter: grayscale(100%);
 	width: 100%; height: auto;margin-bottom: -4px;}
 
@@ -220,11 +218,9 @@ video{
 
 .item:hover figure img{
 	-webkit-filter:grayscale(0);
-	-moz-filter:grayscale(0);
-	-ms-filter:grayscale(0);
 	filter: grayscale(0);
 
-	-webkit-transofrm:scale(1.5);
+	-webkit-transform:scale(1.5);
 	-moz-transform:scale(1.5);
 	-ms-transform:scale(1.5);
 	transform:scale(1.5);

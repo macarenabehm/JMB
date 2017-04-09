@@ -204,7 +204,6 @@ video{
 	color:#333;
 	background:white;
 	box-shadow:0 0 5px rgb(240,240,240);
-	filter: opacity(50%);
 }
 
 .item figure{overflow:hidden;}
@@ -228,7 +227,7 @@ video{
 	-webkit-transition:-webkit-transform ease-out 1s;
 	-moz-transition:-moz-transform ease-out 1s;
 	-ms-transition:-ms-transform ease-out 1s;
-	transition:transform ease-out 1s;
+	 transition:transform ease-out 1s;
 }
 
 .item h4{
@@ -273,6 +272,9 @@ footer hr{
 		margin:1%;
 		background-color:rgb(87, 13, 55);
 		color:#ddd
+	      -webkit-filter: opacity(30%); /* Safari */
+               filter: opacity(30%);
+
 	}
 
 	footer hr{
